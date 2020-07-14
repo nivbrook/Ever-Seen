@@ -17,7 +17,7 @@ class Dashboard extends Component {
   render() {
     const { user } = this.props.auth;
     localStorage.setItem("user", JSON.stringify(user))
-    // getSeeList()
+    getSeeList()
     console.log(JSON.parse(localStorage.getItem("seeList")))
     
     return (
