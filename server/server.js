@@ -21,7 +21,7 @@ app.use(bodyParser.json({
 }));
 app.use(cors({
   credentials: true,
-  origin: "http://localhost:3000"
+  origin: ["http://localhost:3000", "http://52.14.140.165", "https://52.14.140.165"]
 }));
 
 // DB Config

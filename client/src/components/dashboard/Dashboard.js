@@ -6,8 +6,7 @@ import { Link } from 'react-router-dom'
 import Search from "../search/Search";
 import SearchPeople from "../search/SearchPeople"
 import axios from "axios";
-import { getSeeList } from "../../actions/getSeeList";
-
+import getSeeList from "../../actions/getSeeList";
 class Dashboard extends Component {
   onLogoutClick = e => {
     e.preventDefault();
@@ -17,7 +16,7 @@ class Dashboard extends Component {
   render() {
     const { user } = this.props.auth;
     localStorage.setItem("user", JSON.stringify(user))
-    getSeeList()
+    // getSeeList();
     console.log(JSON.parse(localStorage.getItem("seeList")))
     
     return (
