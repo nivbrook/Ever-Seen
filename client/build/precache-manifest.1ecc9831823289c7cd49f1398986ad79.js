@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c29b932a1bd1fc759da9",
+    "revision": "c17e4f5af219d525bbcf",
     "url": "/static/css/main.767c6bfa.chunk.css"
   },
   {
-    "revision": "c29b932a1bd1fc759da9",
-    "url": "/static/js/main.c29b932a.chunk.js"
+    "revision": "c17e4f5af219d525bbcf",
+    "url": "/static/js/main.c17e4f5a.chunk.js"
   },
   {
     "revision": "76deb56e7960d5095857",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/static/media/morley.80836f78.jpg"
   },
   {
-    "revision": "c0af5c1dae9257a916d9cad03431e5e5",
+    "revision": "89fcf8a88abf2cb6b34a91edc82ff0c6",
     "url": "/index.html"
   }
 ];
